@@ -51,6 +51,14 @@ h2{
     width: 90%;
     margin-top: 20;
 }
+a:link{
+    color: inherit;
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
 .dude_again{
     color: white;
     margin-top: 20px;
