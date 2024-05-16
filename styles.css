@@ -1,65 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
     
-.body{
-    background-color:hsl(0, 0%, 12%) ;
-     margin-top: 100px;
-    /* margin-bottom: 300px;
-    margin-left: 300px;
-    margin-right: 300px; */
-    /*overflow:hidden ; */
-}
-.div1{
-    background-color: hsl(0, 0%, 20%);
-    border-radius: 10px;
-   padding-left: 20px;
-   padding-right: 20px;
-   padding-top: 20px;
-   padding-bottom: 20px;
-   height: 600px;
-   width: 300px;
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
     
 }
 .image1{
-    border-radius: 50%;
-   
+    border-radius: 100px;
+    height: 100px;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 10vh;
-    align-items: center;
-}
-
-.button {
-    padding: 10px 20px;
-    background-color: #4d4a4a; 
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin: 5px 0;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 290px;
-}
-
-.button:hover {
-    background-color:hsl(75, 94%, 57%); 
-}
-.head, .dude_again{
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: white;
 }
 .dude{
-    color:hsl(75, 94%, 57%);
+    margin-top: 10px;
+    color: rgb(4, 173, 4);
 }
-/* @media only screen and (max-width: 425px){
-    .body{
-        background-color:hsl(0, 0%, 12%) ;
-         margin-top: 50px;
-         margin-bottom: 50px;
-        margin-left: 50px;
-        margin-right: 150px; 
-        overflow:hidden ; 
-    }
-} */
+.img1{
+    width: 30%;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:hsl(0, 0%, 12%);
+    /* border: solid 6px red; */
+    width: 350px;
+    padding:20px;
+    border-radius: 10px;
+    height: 550px;
+}
+
+.container{
+    /* border: solid blue 4px; */
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 20;
+}
+.dude_again{
+    color: white;
+    margin-top: 20px;
+}
+.button{
+    margin-top: 15px;
+    padding: 10px 10px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border-style: none;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: black;
+}
